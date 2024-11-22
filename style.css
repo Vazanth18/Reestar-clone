@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.Navbar{
+    background-color: black; 
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.Navbar-sec__name{
+    font-size: 40px;
+}
+
+.Navbar-sec__desc{
+    color: rgb(131, 119, 119);
+    font-size: 20px;
+}
+
+.Category{
+    margin: 10px;
+    text-align: center;
+}
+
+.Category-one__img,.Category-two__img,.Category-three__img,.Category-four__img{
+    width: 250px;
+    height: 300px;
+}
+
+.Category-one,.Category-two,.Category-three,.Category-four{
+    display: inline-block;
+    border: solid black 1px;
+}
+
+.Category-one__button,.Category-two__button,.Category-three__button,.Category-four__button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    margin: 10px;    
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-details{
+    display: inline-block;
+}
+
+.contact-details__submit{
+    border: none;
+    background-color: greenyellow;
+    padding: 5px;
+    margin-top: 5px;
+    width: 400px;
+}
